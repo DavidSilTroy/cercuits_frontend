@@ -36,9 +36,9 @@
 }
 
 .sidebar {
-  transition: width 0.5s ease-in-out;
   height: 100% !important;
   position: relative;
+  z-index: 9;
 }
 .sidebar .sidebar-title {
   height: 10% !important;
@@ -91,4 +91,10 @@
 }
 .bg-cercuits-1 a {
   color: #f7f7f7;
+}
+
+.username-options {
+  position: absolute !important;
+  right: 3%;
+  z-index: 10;
 }/*# sourceMappingURL=style.css.map */
