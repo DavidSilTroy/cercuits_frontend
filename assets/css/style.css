@@ -1,19 +1,53 @@
-body {
+.webapp-body {
   background: linear-gradient(#f1faf4, #e2e2e2, #e3e3e3, #f5fdf8); /* add a linear gradient from top left to bottom right, using three color stops */
+  max-height: 100vh !important;
+  height: 100vh !important;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
 }
-
-#main-header {
-  height: 5vh;
+.webapp-body::-webkit-scrollbar {
+  width: 5px; /* set the width of the scrollbar */
+  height: 5px; /* set the height of the scrollbar */
+}
+.webapp-body::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* set the color of the scrollbar thumb */
+  border-radius: 4px; /* set the border radius of the scrollbar thumb */
+}
+.webapp-body::-webkit-scrollbar-track {
+  background-color: rgba(241, 241, 241, 0.3725490196); /* set the color of the scrollbar track */
+  border-radius: 4px; /* set the border radius of the scrollbar track */
 }
 
 .sidebar {
   transition: width 0.5s ease-in-out;
-  max-height: 98vh;
+  height: 100% !important;
+  position: relative;
+}
+.sidebar .sidebar-title {
+  height: 10% !important;
 }
 .sidebar .sidebar-menu-options {
-  max-height: 80%;
-  max-width: 100%;
+  height: 75% !important;
+  padding: 0.3em;
   overflow-y: auto;
+}
+.sidebar .sidebar-menu-options ul {
+  display: block;
+  max-height: 100%;
+  overflow-y: auto;
+}
+.sidebar .sidebar-menu-options ul::-webkit-scrollbar {
+  width: 5px; /* set the width of the scrollbar */
+  height: 5px; /* set the height of the scrollbar */
+}
+.sidebar .sidebar-menu-options ul::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* set the color of the scrollbar thumb */
+  border-radius: 4px; /* set the border radius of the scrollbar thumb */
+}
+.sidebar .sidebar-menu-options ul::-webkit-scrollbar-track {
+  background-color: rgba(241, 241, 241, 0.3725490196); /* set the color of the scrollbar track */
+  border-radius: 4px; /* set the border radius of the scrollbar track */
 }
 .sidebar .sidebar-menu-options::-webkit-scrollbar {
   width: 5px; /* set the width of the scrollbar */
@@ -26,6 +60,13 @@ body {
 .sidebar .sidebar-menu-options::-webkit-scrollbar-track {
   background-color: rgba(241, 241, 241, 0.3725490196); /* set the color of the scrollbar track */
   border-radius: 4px; /* set the border radius of the scrollbar track */
+}
+.sidebar .sidebar-logo {
+  height: 15%;
+  padding: 1em;
+}
+.sidebar .sidebar-logo img {
+  height: 100%;
 }
 
 .bg-cercuits-1 {

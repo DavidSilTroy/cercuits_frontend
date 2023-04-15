@@ -13,126 +13,105 @@
 
     <title>CERcuits</title>
 </head>
-<body> 
-    <section id="main-body" class="container-fluid mt-2"> 
-        <div class="row ps-2">
-            <!-- left side menu -->
-            <nav id="sidebarMenu" class="col-2 bg-cercuits-1 d-md-block  sidebar collapse rounded-3">
-                <div class="position-sticky w-100 text-center mt-3">
-                    <H5 class="text-white">
-                        Stock Management
-                    </H5>
-                </div>
-                <div class="position-sticky pt-3 sidebar-menu-options">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
-                                (icon) Dashboard
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <br>
-                <div class="position-sticky">
-                    <div class="navbar-nav">
-                        <div class="nav-item text-nowrap">
-                            <a class="nav-link px-3" href="{{ url_for('home_views.logout_webapp') }}">Sign out</a>
-                        </div>
-                    </div> 
-                </div> 
-            </nav>
+<body class="webapp-body mw-100"> 
+    <section id="main-body" class="h-100">
+        <div class="row  m-0 p-1 h-100">
+            <div class="col-2 p-0 mh-100">
+                <nav id="sidebarMenu" class="sidebar bg-cercuits-1 rounded-3">
+                    <div class="sidebar-title w-100 text-center pt-2">
+                        <a class="nav-link" href="#">
+                            <H5 class="text-white">
+                                Stock Management
+                            </H5>
+                        </a>
+                    </div>
+                    <div class="sidebar-menu-options ">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('home_views.home') }}">
+                                    (icon) Dashboard
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="sidebar-logo text-center">
+                        <img src="assets/img/cercuits_logo.svg" alt="">
+                    </div>
+                </nav>
+            </div>
             <div class="col-10">
                 <div class="row">
                     <div class="col-9">
                         <input 
                         class="form-control form-control-dark w-100" 
                         type="text" placeholder="Search" aria-label="Search">
-
+                
                     </div>
                     <div class="col-3 text-end pe-3">
                         <h5>
@@ -149,17 +128,21 @@
                         </main>
                     </div>
                 </div> 
-            </div>
-            
+            </div> 
         </div>
-
     </section>
 
     <div class="container-fluid">
     </div>
 
- 
+    <!-- <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link px-3" href="{{ url_for('home_views.logout_webapp') }}">Sign out</a>
+        </li>
+    </ul> -->
       
 
 </body>
 </html>
+
+
