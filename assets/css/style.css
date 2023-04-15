@@ -19,6 +19,22 @@
   border-radius: 4px; /* set the border radius of the scrollbar track */
 }
 
+.table-responsive, .overflow-in-y {
+  overflow-y: auto;
+}
+.table-responsive::-webkit-scrollbar, .overflow-in-y::-webkit-scrollbar {
+  width: 5px; /* set the width of the scrollbar */
+  height: 5px; /* set the height of the scrollbar */
+}
+.table-responsive::-webkit-scrollbar-thumb, .overflow-in-y::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* set the color of the scrollbar thumb */
+  border-radius: 4px; /* set the border radius of the scrollbar thumb */
+}
+.table-responsive::-webkit-scrollbar-track, .overflow-in-y::-webkit-scrollbar-track {
+  background-color: rgba(241, 241, 241, 0.3725490196); /* set the color of the scrollbar track */
+  border-radius: 4px; /* set the border radius of the scrollbar track */
+}
+
 .sidebar {
   transition: width 0.5s ease-in-out;
   height: 100% !important;
